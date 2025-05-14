@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EFECCA;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #C03000;
+}
+
+h2 {
+    color: rgb(62, 136, 165);
+}
+
+.nav {
+    padding: 20px 0px;
+    display: flex;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.nav_item {
+    background: darkred;
+    padding: 5px 20px;
+    margin-right: 5px;
+    border-radius: 3px;
+    transition: 0.1s ease-in;
+}
+
+.nav_item:hover, .nav_item:focus, .nav_item:active {
+    border: #660000;
+    background-color: #009900;
+}
+
+.nav_item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h3 {
+    color: rgb(190, 157, 5)
+}
+
+h3, p {
+    margin: 20px 0px;
+}
+
+.contact_link {
+    text-decoration: none;
+    color: #0000FF;
+    font-weight: bold;
+}
